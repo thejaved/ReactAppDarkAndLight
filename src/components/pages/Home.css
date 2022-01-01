@@ -1,0 +1,6 @@
+.Home {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--light-mode);
+  padding: 1rem;
+}

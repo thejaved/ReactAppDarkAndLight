@@ -1,0 +1,21 @@
+.Iconbtn {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: grid;
+  place-items: center;
+  transition: 0.5s;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  margin: 2px;
+}
+.Iconbtn:hover {
+  text-decoration: none;
+  background-color: var(--low-color);
+}
+.Iconbtn i {
+  font-size: 1.5rem;
+  color: var(--dark-text);
+}
+.Iconbtn:hover i {
+  color: var(--light-text);
+}

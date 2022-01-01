@@ -1,0 +1,9 @@
+.Container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  padding: calc(var(--header-height)) 0 0 calc(var(--sidebar-width));
+  z-index: 1;
+  transition: padding 0.2s linear;
+  background-color: var(--light-mode);
+}

@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+  --light-mode: #fffdfc;
+  --dark-mode: #060930;
+  --low-color: #c7c7c780;
+}
+a {
+  text-decoration: none;
+  color: var(--dark-text);
+}
+i {
+  color: var(--dark-text);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: var(--dark-text);
+}
+:root {
+  /* text colors  */
+  --dark-text: #000;
+
+  /* shadow View */
+  --shadow: 0 6px 20px rgb(56 125 255 / 20%);
+
+  /* header height */
+  --header-height: 70px;
+
+  /* widths of containers */
+  --sidebar-width: 300px;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px var(--dark-mode);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--dark-mode);
+}
+
+html[data-theme="dark"] {
+  --light-mode: #060930;
+  --dark-text: #fff;
+  --low-color: #3f3f6890;
+}
